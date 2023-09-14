@@ -5,7 +5,7 @@
   "keywords": ["node", "express", "twilio"],
   "image": "heroku/nodejs",
   "repository": "https://github.com/nash-md/twilio-contact-center",
-  "addons": ["heroku-postgresql:hobby-dev"],
+  "addons": ["heroku-postgresql:mini"],
   "success_url": "/setup",
   "env": {
     "TWILIO_ACCOUNT_SID": {
